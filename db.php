@@ -1,9 +1,9 @@
 <?php
 // Database configuration
 $host = 'localhost';        // Your MySQL host
-$dbname = 'jani_pakwan_center'; // Your database name
-$username = 'your_username'; // Your MySQL username
-$password = 'your_password'; // Your MySQL password
+$dbname = 'shami_nanola'; // Your database name
+$username = 'shami_nanola'; // Your MySQL username
+$password = 'SkipHire@8182'; // Your MySQL password
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
